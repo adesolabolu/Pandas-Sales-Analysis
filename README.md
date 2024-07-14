@@ -11,7 +11,7 @@
 
 ### Project Overview
 ---
-The analysis reveals insights into product categories, subcategories, sales volume by country, top-selling products (by both revenue and quantity), and preferred shipping methods.
+This project aims to leverage the power of sales data to gain valuable insights and inform strategic decision-making within the sales department. By analyzing historical sales trends and product performance, we can identify areas for improvement and optimize our sales strategies to achieve sustainable growth.
 
 ### Data Sources
 
@@ -105,8 +105,8 @@ cat_subcat_profit_sort.sort_values(['category', 'profit'], ascending=False)
 - 10,292 total products identified.
 - Products were sold in 147 different countries.
 - November 2014 saw the highest sales volume compared to other months
-- The best selling product by sales was Apple Smart Phone, Full Size at 86935.7786 followed by Cisco Smart Phone, Full Size	at 76441.5306 and third was Motorola Smart Phone, Full Size	73156.3030
-- The best selling products in terms of quantity was Staples at 876 units followed by Cardinal Index Tab, Clear	at 337 units and Eldon File Cart, Single Width at 321 units
+- The top-selling products by revenue were Apple, Cisco, and Motorola Smart Phones (Full Size), generating revenues of 86935.78, 76441.53, and 73156.30 respectively.
+- Staples outsold all other products with 876 units, followed by Cardinal Index Tabs (Clear) at 337 units and Eldon File Carts (Single Width) at 321 units.
 - Standard class emerged as the most popular shipping option for customers.
 
 
