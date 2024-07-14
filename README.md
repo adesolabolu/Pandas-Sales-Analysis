@@ -54,6 +54,7 @@ plt.pie(cat_percent, labels=cat_percent.index, autopct="%1.1f%%")
 plt.title("Category Distribution")
 plt.show()
 ```
+![](catdistr.png)
 - How many sub categories are in the dataset
 ```python
 df['sub_category'].nunique()
@@ -74,7 +75,7 @@ plt.ylabel('Sales')
 plt.xticks(rotation='vertical', size =8)
 plt.show
 ```
-![](HNG1_Retail_Sales_Report.jpg)
+![](salestrend.png)
 - What are the top 10 products by sales
 ```python
 prod_sales = pd.DataFrame(df.groupby('product_name')['sales'].sum().sort_values(ascending = False).reset_index())
@@ -91,6 +92,7 @@ sns.countplot(x='ship_mode', data=df)
 plt.title('Preferred Ship Mode')
 plt.show()
 ```
+![](shipmode.png)
 - What are the most profitable categories and sub-categories
 ```
 cat_subcat_profit_sort = pd.DataFrame(df.groupby(['category', 'sub_category'])['profit'].sum())
