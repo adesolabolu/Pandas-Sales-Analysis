@@ -24,7 +24,7 @@ df.columns
 
 ### Tools
   - Microsoft Excel - Univariate Analysis
-  - Microsoft PowerBI - Data Analysis, Data Processing, Data Preparation and Data Visualization
+  - Python - Data Analysis, Data Processing, Data Preparation and Data Visualization
  
 ### Data Cleaning/Preparation
 
